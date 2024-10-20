@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* salvamento de paletas de cores */
+
+:root{
+    --azul-teal-escuro: #123D6A;
+    --rosa-palido: #EDE3DD;
+    --bege-rosado: #ECE2DC;
+    --sinza-rosado: #BCB3B6;
+    --vinho: #AB3B61;
+}
+
+/* header */
+
+.container-header{
+    width: 100%;
+    height: 60px;
+    background-color: var(--azul-teal-escuro);
+    padding: 0 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* logo do header */
+
+.container-img{
+    width: 80px;
+    height: 60px;
+    background-image: url(/PROJETO_01/IMG/logo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    cursor: pointer;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+
+@media (min-width: 431px) and (max-width: 1024px) {
+    /* Ajustes específicos para telas de tablets */
+
+    /* modificações do header */
+
+    .container-header{
+        width: 100%;
+        height: 80px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* midificações do icone do header */
+
+    .container-img{
+        width: 110px;
+        height: 75px;
+    }
+
+
+  }
+  
+
+  @media (max-width: 430px) {
+    /* Ajustes específicos para telas de celulares */
+    
+    /* modificações do header */
+    
+    .container-header{
+        width: 100%;
+        height: 80px;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* midificações do icone do header */
+
+    .container-img{
+        width: 100px;
+        height: 70px;
+        background-size:cover;
+    }
+  }
