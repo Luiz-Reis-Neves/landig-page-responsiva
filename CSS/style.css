@@ -6,9 +6,6 @@
    
 }
 
-  
-
-
 /* salvamento de paletas de cores */
 
 :root{
@@ -86,7 +83,6 @@ input[type=button]{
 
 /* ANIMLÇÃO BOTÃO  */
 
-
 .botao-background {
     width: 150px;
     height: 55px;
@@ -148,10 +144,7 @@ input[type=button]{
     text-align:center;
 }
 
-
-
 /* RESPONSIVIDADE */
-
 
 @media (min-width: 431px) and (max-width: 1024px) {
     /* Ajustes específicos para telas de tablets */
@@ -191,8 +184,6 @@ input[type=button]{
     
   }
   
-
-
   @media (max-width: 430px) {
     /* Ajustes específicos para telas de celulares */
     
