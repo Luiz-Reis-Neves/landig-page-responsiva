@@ -152,9 +152,26 @@ input[type=button]{
         height: 75px;
     }
 
+    /* modificações da frase */
+
+    .container-frase{
+        width: 90%;
+        height: 130px;
+    }
+    
+    .container-frase > h1{
+        font-size: 30px;
+    }
+    
+    .container-frase > p{
+        font-size: 15px;
+    }
+    
+
 
   }
   
+
 
   @media (max-width: 430px) {
     /* Ajustes específicos para telas de celulares */
@@ -177,4 +194,21 @@ input[type=button]{
         height: 70px;
         background-size:cover;
     }
+
+     /* modificações da frase */
+
+    .container-frase{
+        width: 90%;
+        height: 100px;
+    }
+    
+    .container-frase > h1{
+        font-size: 30px;
+    }
+    
+    .container-frase > p{
+        font-size: 15px;
+    }
+    
+
   }
